@@ -10,7 +10,7 @@ export default function Home({exploreData,cardsData}) {
   return (
     <div>
       <Head>
-        <title>Tatoo my face</title>
+        <title>Airbnb Project</title>
         <meta name="description" content="Réserver votre prochain tatouage en ligne" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
