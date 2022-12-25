@@ -20,7 +20,7 @@ export default function Home({exploreData,cardsData}) {
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
         <section className='pt-6'>
-          <h2 className="text-4xl font-semibold pb-5">Explore nearby</h2>
+          <h2 className="text-4xl font-semibold pb-5">Explorer les environs</h2>
           {/* Pull some data from a server - API endpoints */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {exploreData.map(({img,name,distance,location}) => (
@@ -35,7 +35,7 @@ export default function Home({exploreData,cardsData}) {
           </div>
         </section>
         <section>
-          <h2 className="text-4xl font-semibold py-8">Live anywhere</h2>
+          <h2 className="text-4xl font-semibold py-8">Nos coups de cœur</h2>
           {/* Pull some data from a server - API endpoints */}
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
             {cardsData.map(({img,title}) => (
@@ -50,10 +50,10 @@ export default function Home({exploreData,cardsData}) {
           <section>
           <div>
             <LargeCard
-              img="https://links.papareact.com/4cj"
-              title="The Greatest Outdoors"
-              description="Wishlists curated by AirBnb."
-              buttonText="Get Inspired"
+              img="/images/largeCard.jpg"
+              title="Témoignage"
+              description="Jean-Renaud de Vernageau - Amateur de tatouages"
+              buttonText="Inspirez-vous"
             />
           </div>
           </section>
