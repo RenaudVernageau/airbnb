@@ -29,7 +29,7 @@ function Footer() {
             <h5 className="font-bold">SUPPORT</h5>
             <p>Help center</p>
             <p>Trust & safety</p>
-            <p>Say Hi Youtube</p>
+            <p>Say Hi</p>
             <p>Easter Eggs</p>
             <p>For the win</p>
         </div>
